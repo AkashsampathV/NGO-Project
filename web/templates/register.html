@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+</head>
+<link rel="stylesheet" href="static/index.css">
+
+<body>
+    <h2 class="h2">Register</h2>
+    <div class="form">
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Register" class="btn">
+
+        </form>
+
+    </div>
+    <p class="p">Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+    <img class="img" src="imgaes/download (1).jpeg">
+</body>
+
+</html>

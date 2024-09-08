@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="static/home.css">
+</head>
+<div id="home">
+</div>
+
+<body style="background-color: aquamarine;">
+    <h2>Welcome, {{ username }}!</h2>
+    <h2 style="background-color:transparent">
+        <center> Blood Bank NGo Happy TO Welcome you</center>
+
+    </h2>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+
+</html>

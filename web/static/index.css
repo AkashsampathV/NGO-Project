@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: Arial;
+}
+
+.form {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h2 {
+    padding-left: 40%;
+    font-size: 30px;
+}
+
+.p {
+    padding-left: 40%;
+}
+
+.btn {
+    color: red;
+    background-color: azure;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1.5px solid rgb(138, 34, 34);
+    cursor: pointer;
+}
+
+.img {
+    background-position: center;
+    padding-left: 40%;
+    height: 200px;
+}
